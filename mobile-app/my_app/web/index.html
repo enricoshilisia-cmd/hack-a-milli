@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="my_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
+    import { getAuth } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyBKVdrHH03m9phjRYCqEsHCCEyQG08SN18",
+      authDomain: "skillproof-55cb4.firebaseapp.com",
+      projectId: "skillproof-55cb4",
+      storageBucket: "skillproof-55cb4.firebasestorage.app",
+      messagingSenderId: "259916490431",
+      appId: "1:259916490431:web:9d70de1c26fc8ec304480a",
+      measurementId: "G-0NP4PPPFTY"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>my_app</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
