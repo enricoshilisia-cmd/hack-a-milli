@@ -1,0 +1,22 @@
+# Node.js/Next.js
+node_modules/
+web-app/nextjs-frontend/.next/
+web-app/nextjs-frontend/out/
+web-app/nextjs-frontend/.env.local
+web-app/nextjs-frontend/.env
+
+# Django
+web-app/django-backend/__pycache__/
+web-app/django-backend/*.pyc
+web-app/django-backend/.env
+web-app/django-backend/settings.py
+web-app/django-backend/db.sqlite3
+web-app/django-backend/mvenv/
+
+# Flutter (for future mobile-app/)
+mobile-app/my_app/build/
+mobile-app/my_app/android/app/google-services.json
+
+# Large files (optional, if moved to releases/)
+releases/*.apk
+releases/*.mp4
