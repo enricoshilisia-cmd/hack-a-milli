@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-l*2ayj1r^vqdq9=bq+%_s3ich$@_7%-@%74e)o+7ix+6+lt-no
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '172.166.222.31', 'waitress.invalid', 'skillproof.me.ke', 'api.skillproof.me.ke', 'www.skillproof.me.ke']
+ALLOWED_HOSTS = ['skillproof.me.ke', 'api.skillproof.me.ke', 'www.skillproof.me.ke']
 
 
 # For development: Allow all origins (not recommended for production)
@@ -34,11 +34,6 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 # OR, for more control, allow specific origins with a regex for dynamic ports
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:8000',  # Django backend
-    'http://127.0.0.1:8000',
-    'http://172.166.222.31:8000',
-    "http://localhost:3000",  # React frontend default port
-    'http://waitress.invalid:8000',
     'https://skillproof.me.ke',
     'https://www.skillproof.me.ke',
     'https://api.skillproof.me.ke'
