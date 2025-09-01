@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-l*2ayj1r^vqdq9=bq+%_s3ich$@_7%-@%74e)o+7ix+6+lt-no'
+SECRET_KEY = '###########################'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,10 +37,6 @@ CORS_ALLOWED_ORIGINS = [
     'https://skillproof.me.ke',
     'https://www.skillproof.me.ke',
     'https://api.skillproof.me.ke'
-]
-CORS_ALLOWED_ORIGIN_REGEXES = [
-    r'^http://localhost:\d+$',  # Matches localhost with any port (e.g., localhost:51839)
-    r'^http://127.0.0.1:\d+$',  # Matches 127.0.0.1 with any port
 ]
 
 # Optional: Allow specific headers and methods
@@ -140,7 +136,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'skillproof_db',
         'USER': 'postgres',
-        'PASSWORD': 'Es@91419271',
+        'PASSWORD': '#########',
         'HOST': 'localhost',
         'PORT': '5432',
     }
